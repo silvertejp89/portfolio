@@ -2,6 +2,7 @@ const mainProjects = [
   {
     id: 10,
     title: "SoulCaller",
+    status: "In development",
     image: "https://i.ibb.co/4wp7fKT4/Sk-rmavbild-2025-04-29-kl-15-20-07.png",
     netlify: null,
     heading: "A COMMUNITY DRIVEN CARD GAME",
@@ -20,6 +21,7 @@ const mainProjects = [
   {
     id: 11,
     title: "Family Information Display",
+    status: "Private project",
     image:
       "https://i.ibb.co/tPHmLFNh/Chat-GPT-Image-Jun-1-2026-02-14-04-PM.png",
     netlify: null,
@@ -38,6 +40,7 @@ const mainProjects = [
   {
     id: 12,
     title: "Cybersecurity Learning Quest",
+    status: "In progress",
     image: "https://i.ibb.co/DHQVzhB3/Screenshot-2026-05-31-234335.png",
     netlify: null,
     heading: "A GAMIFIED KNOWLEDGE JOURNEY",
