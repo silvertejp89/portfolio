@@ -13,7 +13,7 @@ const ThoughtCard = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img class="image" src={props.image} alt="blog" />
+            <img className="image" src={props.image} alt="blog" />
             <div className="blogDate">
               <p>{props.date}</p>
             </div>
