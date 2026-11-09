@@ -13,7 +13,7 @@ const OtherCard = (props) => {
       <article>
         <a
           aria-label="Link to project"
-          class="project-link"
+          className="project-link"
           href={props.netlify}
           target="_blank"
           rel="noopener noreferrer"
@@ -26,14 +26,14 @@ const OtherCard = (props) => {
         <p className="project-description"> {props.description} </p>
         <div className="link-github-project">
           <a href={props.github} target="_blank" rel="noopener noreferrer">
-            <p class="github-link">View it on GitHub</p>
+            <p className="github-link">View it on GitHub</p>
           </a>
         </div>
 
         <div className="tags">
           <span>
             {props.tools.map((tag) => (
-              <span className="tag-span">{tag}</span>
+              <span key={tag} className="tag-span">{tag}</span>
             ))}
           </span>
         </div>
