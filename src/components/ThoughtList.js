@@ -20,7 +20,7 @@ import thoughts from '../assets/data/thoughts';
 const ThoughtList = () => {
   return (
     <div className="portfolio-section">
-      <div class="heading-container">
+      <div className="heading-container">
         <h2>My Thoughts about Code</h2>
       </div>
       <div className="grid-container">
