@@ -29,6 +29,7 @@ const MainCard = (props) => {
             <h4> {props.heading} </h4>
           </div>
         </a>
+        {props.status && <p className="project-status">{props.status}</p>}
         {/* ------------------------------------------------ */}
         <p className="project-description"> {props.description} </p>
         {props.github && (
@@ -42,7 +43,7 @@ const MainCard = (props) => {
         <div className="tags">
           <span>
             {props.tools.map((tag) => (
-              <span className="tag-span">{tag}</span>
+              <span key={tag} className="tag-span">{tag}</span>
             ))}
           </span>
         </div>
