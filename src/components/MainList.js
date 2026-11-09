@@ -37,6 +37,7 @@ const MainList = () => {
             description={project.description}
             github={project.github}
             tools={project.tools}
+            status={project.status}
           />
         ))}{' '}
       </div>
